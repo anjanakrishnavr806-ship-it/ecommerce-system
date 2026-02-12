@@ -1,0 +1,16 @@
+{% load static %}
+
+<h1>Store</h1>
+<div class="products">
+    {% for product in products %}
+        <div class="product">
+            <img src="{{ product.image.url }}" alt="{{ product.name }}" width="200">
+            <h2>{{ product.name }}</h2>
+            <p>{{ product.description|truncatewords:20 }}</p>
+            <p>Price: ${{ product.price }}</p>
+            <button>Add to Cart</button>
+        </div>
+    {% empty %}
+        <p>No products available.</p>
+    {% endfor %}
+</div>
