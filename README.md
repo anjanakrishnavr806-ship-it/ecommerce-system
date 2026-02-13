@@ -3,7 +3,7 @@ Django E-commerce Project
 A simple E-commerce web application built using Django.
 This project demonstrates product management with image upload, pricing, and stock control using Django ORM.
 
-🚀 Features
+ Features
 
 Add, update, and delete products
 
@@ -17,7 +17,7 @@ Django Admin integration
 
 SQLite database (default)
 
-🛠 Tech Stack
+Tech Stack
 
 Backend: Python, Django
 
